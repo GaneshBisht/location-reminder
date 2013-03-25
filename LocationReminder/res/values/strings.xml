@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">LocationReminder</string>
+    
+    <!-- Common -->
+    <string name="common_on">ON</string>
+    <string name="common_off">OFF</string>
+    <string name="common_done">Done</string>
+    <string name="common_meters">&#160;meters</string>
+    
+    <!-- Bottom Menu -->
+    <string name="bottom_menu_select_target">Select Target</string>
+    <string name="bottom_menu_alert">Alert</string>
+    <string name="bottom_menu_vibrate">Vibrate</string>
+    <string name="bottom_menu_more_settings">More Settings</string>
+    <string name="bottom_menu_select_target_tips">Tap the map view to select your target location and sliding the bar to set distance which you want it remind you when the target in scope.</string>
+    <string name="bottom_menu_scope">Scope: </string>
+    
+    <!-- Remind Dialog -->
+    <string name="remind_dialog_msg">Reminder: The target location is nearing to your location.</string>
+    <string name="remind_dialog_ok">OK</string>
+    
 </resources>

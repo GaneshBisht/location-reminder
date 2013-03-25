@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#0b5ed7</color>
+    <color name="skyblue">#5292d9</color>
+    <color name="gray">#bebebe</color>
+    <color name="lightgray">#e5e5e5</color>
+    <color name="darkgray">#707070</color>
+    <color name="cambridgeblue">#bed9fd</color>
+    <color name="black">#000000</color>
+    <color name="green">#98cb00</color>
+    <color name="transparent">#00000000</color>
+    <color name="tranblack">#66000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="dark_red">#b38e50</color>
+    <color name="black_deep_alpha">#BB000000</color>
+    <color name="red_bar">#ffcc3333</color>
+    <color name="red_text">@color/red_bar</color>
+    <color name="list_divider_line">#ffc8c8c8</color>
+    
+    
+    <!-- Map -->
+    <color name="map_bottom_menu_background">#AA222222</color>
+
+    <color name="line_color">#aae5e5e5</color>
+    
+    <color name="list_selector">#eeeeee</color>
+    
+    <color name="switcher_outer_glow_color">#ff976e2a</color>
+    
+    <drawable name="list_item_focused">#ff5500</drawable>
+    <drawable name="list_item_normal">#00FF00FF</drawable>
+   
+</resources>

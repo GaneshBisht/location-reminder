@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_menu_height"
+    android:layout_gravity="bottom"
+    android:background="@color/map_bottom_menu_background"
+    android:padding="10dp">
+    
+    <!-- Menu bar -->
+    <LinearLayout 
+        android:id="@+id/view_bottom_menu_settings_layout"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true">
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.tim.locationreminder.view.OhTextView 
+                android:id="@+id/view_bottom_menu_select_target"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_location"
+                android:text="@string/bottom_menu_select_target"/>
+            <com.tim.locationreminder.view.OhTextView 
+                android:id="@+id/view_bottom_menu_alert"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_location"
+                android:text="@string/bottom_menu_alert"/>
+            <com.tim.locationreminder.view.OhTextView 
+                android:id="@+id/view_bottom_menu_vibrate"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_location"
+                android:text="@string/bottom_menu_vibrate"/>
+            <com.tim.locationreminder.view.OhTextView 
+                android:id="@+id/view_bottom_menu_more_settings"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/ic_location"
+                android:text="@string/bottom_menu_more_settings"/>
+        </LinearLayout>
+        
+        <!-- TODO 以後新的選項在此添加 -->
+        <!-- ... -->
+    </LinearLayout>
+    <!-- End Menu bar -->
+</RelativeLayout>

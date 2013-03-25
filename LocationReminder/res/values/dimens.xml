@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Map -->
+    <dimen name="bottom_menu_height">100dp</dimen>
+    
+</resources>
