@@ -1,0 +1,1 @@
+An app for remind user the place which located on map by user was arrived.
